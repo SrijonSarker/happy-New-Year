@@ -1,0 +1,387 @@
+body{
+  font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;}
+*{
+  margin: 0;
+  padding: 0;
+} 
+header{
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Banner\ Image.png');
+  border-radius: 16px;
+  background-size: cover; /* Adjust based on your preference */
+background-position: center; /* Adjust based on your preference */
+background-repeat: no-repeat;
+width: full;
+height: 650px;
+margin: 50px 140px 50px 140px;
+flex-shrink: 0;
+
+}
+
+.header-title{
+font-family: Merriweather;
+color: #FFF;
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+padding-top: 177px;  */
+
+}
+.header-description{
+font-family: Merriweather;
+  color: #FFF;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+padding-top: 17px;
+
+} 
+.rohim{
+color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 48px ;
+}
+.korim{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 8px;
+}
+.josim{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 48px;
+}
+.jamal{
+width: full;
+display: block; 
+margin: 0 auto;
+height: 500px;
+flex-shrink: 0;
+ fill: url('resources/new\ year.fig'), lightgray 50% / cover no-repeat;
+}
+
+.holiday{
+margin:120px 400px ;
+background: #FFF;
+}
+
+.Welcome{
+padding-left: 126px;
+/* padding-top: 126px; */
+width: full;
+
+}
+.Welcome-title{
+color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+margin-bottom: 24px;
+
+}
+.Welcome-description{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+
+}
+.btn-welcome{
+color:white;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+background: none;
+border: none;
+}
+
+.welcome-image{
+  padding-right: 100px;
+}
+
+.welcome-section{
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Vectorrr.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:12px;
+  background-size: cover; /* Adjust based on your preference */
+background-position: center; /* Adjust based on your preference */
+background-repeat: no-repeat;
+height: 650px;
+margin-left: 140px;
+margin-right: 140px;
+}
+
+
+.event-details-section{
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  margin-left:140px;
+  margin-right:140px;
+  height:480px;
+  margin-top:120px;
+
+}
+
+.event-details-elements{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.span-style{
+  color: #F00;
+}
+
+.eventDetails{
+  color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+text-transform: capitalize;
+margin-bottom: 8px;
+}
+
+.event-button{
+ margin-top: 40px;
+ border-radius: 8px;
+background: #F00;
+color:white;
+border:none;
+padding:12px 32px
+}
+
+.coming-soon-section{
+  display: flex;
+  margin-left: 140px;
+margin-right: 140px;
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+
+.coming-soon-left{
+  flex: 1;
+}
+
+.coming-soon-right{
+  flex: 1;
+}
+
+.coming-soon-image{
+  flex: 1;
+}
+
+.left-red-paragraph{
+
+color: #F00;
+text-align: start;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+.left-title{
+  color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+margin-top: 16px;
+margin-bottom: 22px;
+}
+
+.coming-soon-description{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+}
+
+.right-title{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+
+#coming-soon-description-id{
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+
+.coming-soon-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 365px;
+  width: 365px;
+  border-radius: 50%;
+  padding: 30px;
+  border: 15px solid #F00;
+  
+}
+
+.gift-section{
+  margin:120px 140px 120px 140px;
+}
+
+.gift-images{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.subscribe-section{
+  height: 600px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 120px;
+  
+}
+
+.subscribe-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.subscribe-button-content{
+  padding-top: 48px;
+}
+
+.subscribe-description{
+  color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.subscribe-button-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.subscribe-input{
+border-radius: 50px 0 0 50px;
+background: #FFF;
+height: 60px;
+width: 600px;
+border: none;
+}
+
+.subscribe-button{
+  border-radius: 0px 50px 50px 0px;
+background: #F00;
+height: 60px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 56px;
+padding-right: 56px;
+border: none;
+color:white;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+
+}
+
+
+footer{
+  background: #070211;
+  height: 609px;
+}
+
+.footer-all-content{
+  padding: 140px 120px;
+}
+
+
+.icon-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:4px;
+}
+
+.footer-content{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+
+.footer-web-call{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.footer-first-row{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.footer-sec-row{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  padding-top:48px;
+  padding-bottom:48px;
+  
+}
+
+.footer-img{
+  display: flex; 
+  gap: 24px;
+}
+
+.footer-third-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top:50px;
+}
+
+.border{
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
